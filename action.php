@@ -2,8 +2,16 @@
 session_start();
 
 
-// Database Connection
-$mysqli = new mysqli('localhost', 'root', '', 'dpi_results') or die(mysqli_error($mysqli));
+
+// Local
+// $mysqli = new mysqli('localhost', 'root', '', 'dpi_results') or die(mysqli_error($mysqli));
+
+// Infinity Free
+// $mysqli = new mysqli('sql302.epizy.com', 'epiz_34323804', 'UshcXPpEYU', 'epiz_34323804_dpi_results') or die
+
+// 000webhost
+$mysqli = new mysqli('localhost', 'id20842982_dpi_results', 'DpiResultsPhp23.', 'id20842982_dpi_results') or die
+  (mysqli_error($mysqli));
 
 
 
